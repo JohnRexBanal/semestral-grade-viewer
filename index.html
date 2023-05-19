@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prelim Laboratory Exercise 5</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <h1>STUDENT GRADE INFO</h1>
+    <div>
+      <!--Text field for first name-->
+      <b>FIRST NAME:</b
+      ><label
+        ><input type="text" id="firstName" class="textfield" /><br
+      /></label>
+
+      <!--Text field for last name-->
+      <b>LAST NAME:</b>
+      <label><input type="text" id="lastName" class="textfield" /><br /></label>
+
+      <!--Text field for prelim grade-->
+      <b>PRELIM GRADE:</b
+      ><label
+        ><input type="text" id="prelimGrade" class="textfield" /> <br
+      /></label>
+
+      <!--Text field for midterm grade-->
+      <b>MIDTERM GRADE:</b
+      ><label
+        ><input type="text" id="midtermGrade" class="textfield" /> <br
+      /></label>
+
+      <!--Text field for final grade-->
+      <b>FINAL GRADE:</b
+      ><label
+        ><input type="text" id="finalGrade" class="textfield" /> <br /><br />
+      </label>
+      <!--process button-->
+      <button onclick="showDetails()" class="btnProcess">PROCESS</button>
+
+      <!--clear button-->
+      <button onclick="clearFields()" class="btnClear">CLEAR</button>
+
+      <!--p tag with the pOutput id, where the results will go after clicking the process button-->
+      <p id="pOutput">[The Results will go here]</p>
+    </div>
+
+    <!--external script-->
+    <script src="script.js"></script>
+  </body>
+</html>
